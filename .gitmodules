@@ -1,6 +1,8 @@
 [submodule "apps/wiggin.dev"]
 	path = apps/wiggin.dev
 	url = https://github.com/wiggindev/wiggin.dev
+	branch = main
 [submodule "apps/wiggin.link"]
 	path = apps/wiggin.link
 	url = https://github.com/wiggindev/wiggin.link
+	branch = main
