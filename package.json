@@ -20,5 +20,10 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.0",
+  "dependenciesMeta": {
+    "ts-node@10.9.1": {
+      "unplugged": true
+    }
+  }
 }
