@@ -1320,7 +1320,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.55.0, @typescript-eslint/eslint-plugin@npm:^5.56.0":
+"@typescript-eslint/eslint-plugin@npm:^5.56.0":
   version: 5.56.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.56.0"
   dependencies:
@@ -1344,7 +1344,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.21.0, @typescript-eslint/parser@npm:^5.42.0, @typescript-eslint/parser@npm:^5.55.0, @typescript-eslint/parser@npm:^5.56.0":
+"@typescript-eslint/parser@npm:^5.21.0, @typescript-eslint/parser@npm:^5.42.0, @typescript-eslint/parser@npm:^5.56.0":
   version: 5.56.0
   resolution: "@typescript-eslint/parser@npm:5.56.0"
   dependencies:
@@ -2633,7 +2633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0, eslint-config-prettier@npm:^8.7.0, eslint-config-prettier@npm:^8.8.0":
+"eslint-config-prettier@npm:^8.3.0, eslint-config-prettier@npm:^8.8.0":
   version: 8.8.0
   resolution: "eslint-config-prettier@npm:8.8.0"
   peerDependencies:
@@ -4800,16 +4800,12 @@ __metadata:
     "@types/prettier": ^2.7.2
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
-    "@typescript-eslint/eslint-plugin": ^5.55.0
-    "@typescript-eslint/parser": ^5.55.0
     "@use-gesture/react": ^10.2.24
     better-color-tools: ^0.12.2
     classnames: ^2.3.2
     cookies-next: ^2.1.1
     critters: ^0.0.16
-    eslint: ^8.36.0
-    eslint-config-next: ^13.2.4
-    eslint-config-prettier: ^8.7.0
+    eslint-config-wiggin: "*"
     jotai: ^2.0.3
     next: ^13.2.4
     postcss: ^8.4.21
@@ -6524,6 +6520,8 @@ __metadata:
 "wiggin.link@workspace:apps/wiggin.link":
   version: 0.0.0-use.local
   resolution: "wiggin.link@workspace:apps/wiggin.link"
+  dependencies:
+    eslint-config-wiggin: "*"
   languageName: unknown
   linkType: soft
 
